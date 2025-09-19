@@ -8,10 +8,10 @@ class RTLearner:
         self._rng = np.random.default_rng()
 
     def author(self):
-        return "your_gt_username"
+        return "vsingla31"
 
     def study_group(self):
-        return "your_gt_username"
+        return "vsingla31"
 
     def _leaf(self, y):
         return np.array([[-1.0, float(np.mean(y)), np.nan, np.nan]], dtype=float)

@@ -7,10 +7,10 @@ class DTLearner:
         self.tree = None
 
     def author(self):
-        return "vid"
+        return "vsingla31"
 
     def study_group(self):
-        return "vid"
+        return "vsingla31"
 
     def _leaf(self, y):
         return np.array([[-1.0, float(np.mean(y)), np.nan, np.nan]], dtype=float)

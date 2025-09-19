@@ -11,10 +11,10 @@ class BagLearner:
         self._rng = np.random.default_rng()
 
     def author(self):
-        return "your_gt_username"
+        return "vsingla31"
 
     def study_group(self):
-        return "your_gt_username"
+        return "vsingla31"
 
     def add_evidence(self, data_x, data_y):
         X = np.asarray(data_x, dtype=float)
